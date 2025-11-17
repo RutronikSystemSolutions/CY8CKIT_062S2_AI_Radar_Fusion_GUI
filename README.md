@@ -14,6 +14,11 @@ Enables to use the [CY8CKIT-062S2-AI dev board](https://www.infineon.com/evaluat
 
 - GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
+> [!CAUTION]
+> Does not work with Arm GNU Toolchain (GCC) 14.2.1
+
+You have the possibility to flash the device directly, using MTB Programmer and the binary elf file provided.
+
 ## Using the code example
 
 - In **Eclipse IDE for ModusToolbox** click on File -> New -> ModusToolbox&trade; Application
